@@ -3,12 +3,11 @@ package com.example.kawkabi.design_system.text_style
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 val defaultTextStyle = KawkabiTextStyle(
     headerLarge = SizedTextStyle(
-        large = TextStyle(
+        bold = TextStyle(
             fontSize = 30.sp,
             lineHeight = 38.sp,
             fontWeight = FontWeight.Bold
@@ -18,14 +17,14 @@ val defaultTextStyle = KawkabiTextStyle(
             lineHeight = 38.sp,
             fontWeight = FontWeight.Medium
         ),
-        small =  TextStyle(
+        regular =  TextStyle(
             fontSize = 30.sp,
             lineHeight = 38.sp,
             fontWeight = FontWeight.Normal
         ),
     ),
     headerMedium = SizedTextStyle(
-        large = TextStyle(
+        bold = TextStyle(
             fontSize = 30.sp,
             lineHeight = 38.sp,
             fontWeight = FontWeight.Bold
@@ -36,14 +35,14 @@ val defaultTextStyle = KawkabiTextStyle(
             fontWeight = FontWeight.Medium
 
         ),
-        small =  TextStyle(
+        regular =  TextStyle(
             fontSize = 24.sp,
             lineHeight = 32.sp,
             fontWeight = FontWeight.Normal
         ),
     ),
     headerSmall = SizedTextStyle(
-        large = TextStyle(
+        bold = TextStyle(
             fontSize = 20.sp,
             lineHeight = 28.sp,
             fontWeight = FontWeight.Bold
@@ -55,7 +54,7 @@ val defaultTextStyle = KawkabiTextStyle(
             fontWeight = FontWeight.Medium
 
         ),
-        small =  TextStyle(
+        regular =  TextStyle(
             fontSize = 20.sp,
             lineHeight = 28.sp,
             fontWeight = FontWeight.Normal
@@ -63,7 +62,7 @@ val defaultTextStyle = KawkabiTextStyle(
         ),
     ),
     title = SizedTextStyle(
-        large = TextStyle(
+        bold = TextStyle(
             fontSize = 18.sp,
             lineHeight = 26.sp,
             fontWeight = FontWeight.Bold
@@ -75,7 +74,7 @@ val defaultTextStyle = KawkabiTextStyle(
             fontWeight = FontWeight.Medium
 
         ),
-        small =  TextStyle(
+        regular =  TextStyle(
             fontSize = 18.sp,
             lineHeight = 26.sp,
             fontWeight = FontWeight.Normal
@@ -83,7 +82,7 @@ val defaultTextStyle = KawkabiTextStyle(
         ),
     ),
     subtitle = SizedTextStyle(
-        large = TextStyle(
+        bold = TextStyle(
             fontSize = 16.sp,
             lineHeight = 24.sp,
             fontWeight = FontWeight.Bold
@@ -95,7 +94,7 @@ val defaultTextStyle = KawkabiTextStyle(
             fontWeight = FontWeight.Medium
 
         ),
-        small =  TextStyle(
+        regular =  TextStyle(
             fontSize = 16.sp,
             lineHeight = 24.sp,
             fontWeight = FontWeight.Normal
@@ -103,7 +102,7 @@ val defaultTextStyle = KawkabiTextStyle(
         ),
     ),
     body = SizedTextStyle(
-        large = TextStyle(
+        bold = TextStyle(
             fontSize = 14.sp,
             lineHeight = 22.sp,
             fontWeight = FontWeight.Bold
@@ -115,7 +114,7 @@ val defaultTextStyle = KawkabiTextStyle(
             fontWeight = FontWeight.Medium
 
         ),
-        small =  TextStyle(
+        regular =  TextStyle(
             fontSize = 14.sp,
             lineHeight = 22.sp,
             fontWeight = FontWeight.Normal
@@ -123,7 +122,7 @@ val defaultTextStyle = KawkabiTextStyle(
         ),
     ),
     caption = SizedTextStyle(
-        large = TextStyle(
+        bold = TextStyle(
             fontSize = 12.sp,
             lineHeight = 18.sp,
             fontWeight = FontWeight.Bold
@@ -135,7 +134,7 @@ val defaultTextStyle = KawkabiTextStyle(
             fontWeight = FontWeight.Medium
 
         ),
-        small =  TextStyle(
+        regular =  TextStyle(
             fontSize = 12.sp,
             lineHeight = 18.sp,
             fontWeight = FontWeight.Normal

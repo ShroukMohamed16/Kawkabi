@@ -13,7 +13,7 @@ data class KawkabiTextStyle(
 )
 
 data class SizedTextStyle(
-    val large: TextStyle,
+    val bold: TextStyle,
     val medium: TextStyle,
-    val small: TextStyle
+    val regular: TextStyle
 )

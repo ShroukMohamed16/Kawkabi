@@ -18,6 +18,6 @@ fun KawkabiTheme(
         localKawkabiColors provides colorScheme ,
         localDefaultTextStyle provides defaultTextStyle
     ) {
-        content
+        content()
     }
 }
