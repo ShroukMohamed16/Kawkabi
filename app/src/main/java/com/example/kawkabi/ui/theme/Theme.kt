@@ -33,6 +33,7 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
+/*
 @Composable
 fun KawkabiTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
@@ -54,4 +55,4 @@ fun KawkabiTheme(
       typography = Typography,
       content = content
     )
-}
+}*/
