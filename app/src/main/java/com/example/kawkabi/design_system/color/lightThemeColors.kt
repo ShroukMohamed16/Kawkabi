@@ -9,5 +9,6 @@ val lightThemeScheme = KawkabiColors(
     primary600 = Color(0xFF815DC7),
     primary200 = Color(0xFFD8C4FF),
     danger600 = Color(0xFFF64C4C),
-    success600 = Color(0xFF47B881)
+    success600 = Color(0xFF47B881),
+    hintColor = Color(0x800A0A0A)
 )
