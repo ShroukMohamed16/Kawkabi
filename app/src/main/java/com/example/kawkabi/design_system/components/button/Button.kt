@@ -37,7 +37,7 @@ fun Button(
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
     shape: Shape = RectangleShape,
-    contentPadding: PaddingValues = PaddingValues(0.dp),
+    contentPadding: PaddingValues = PaddingValues(16.dp),
     isEnabled: Boolean = true,
     containerColor: Color = Color.Transparent,
     disabledContainerColor: Color = Color.Transparent,
