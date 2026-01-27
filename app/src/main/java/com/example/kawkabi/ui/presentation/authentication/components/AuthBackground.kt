@@ -18,9 +18,9 @@ import com.example.kawkabi.design_system.theme.KawkabiTheme
 
 @Composable
 fun AuthBackground(
+    modifier: Modifier = Modifier,
     content:@Composable BoxScope.()->Unit,
-    modifier: Modifier = Modifier
-) {
+    ) {
     Box(modifier
         .fillMaxSize()
         .background(color = Theme.color.natural50)) {
@@ -66,6 +66,6 @@ private fun Star(
 @Composable
 fun AuthBackgroundPreview() {
     KawkabiTheme {
-        AuthBackground({})
+        AuthBackground{}
     }
 }
