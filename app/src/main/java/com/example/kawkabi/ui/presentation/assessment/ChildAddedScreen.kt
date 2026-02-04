@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -44,7 +43,6 @@ fun ChildAddedContent(
         modifier = modifier
             .fillMaxSize()
             .verticalScroll(rememberScrollState()),
-
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
@@ -52,28 +50,26 @@ fun ChildAddedContent(
             contentDescription = "Child Added Successfully",
             modifier = Modifier
                 .fillMaxWidth(0.75f)
+                .padding(bottom = 32.dp)
                 .aspectRatio(1f)
-
         )
-        Spacer(Modifier.height(32.dp))
 
         Image(
             painter = painterResource(R.drawable.ic_check),
             contentDescription = null,
             modifier = Modifier
                 .size(80.dp)
-
+                .padding(bottom = 24.dp)
         )
-        Spacer(Modifier.height(24.dp))
 
         Text(
             text = stringResource(R.string.your_account_has_been_created),
             style = Theme.textStyle.headerSmall.medium,
             color = Theme.color.primary500,
-            textAlign = TextAlign.Center
+            textAlign = TextAlign.Center,
+            modifier = Modifier.padding(bottom = 16.dp)
         )
 
-        Spacer(Modifier.height(16.dp))
 
         Text(
             text = stringResource(R.string.you_will_be_directed_to_the_home_page),
