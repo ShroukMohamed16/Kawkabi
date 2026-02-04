@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kawkabi</string>
+    <string name="create_account">إنشاء حساب</string>
+    <string name="please_fill_the_details_and_create_account">يرجى إدخال البيانات وإنشاء حساب</string>
+    <string name="enter_your_name">أدخل اسمك</string>
+    <string name="name">الاسم</string>
+    <string name="enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="enter_your_password">أدخل كلمة المرور</string>
+    <string name="password">كلمة المرور</string>
+    <string name="enter_confirm_password">أدخل تأكيد كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="sign_up">إنشاء حساب</string>
+    <string name="already_have_an_account_log_in">لديك حساب بالفعل؟ تسجيل الدخول</string>
+
 </resources>

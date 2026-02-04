@@ -8,6 +8,7 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextAlign
@@ -22,7 +23,7 @@ import com.example.kawkabi.ui.presentation.authentication.components.AuthBackgro
 
 @Composable
 fun SignUpScreen() {
-
+    SignUpContent()
 }
 
 
@@ -39,7 +40,7 @@ fun SignUpContent(
         ) {
             item {
                 Text(
-                    text = "Create Account",
+                    text = stringResource(R.string.create_account),
                     color = Theme.color.primary500,
                     style = Theme.textStyle.headerMedium.bold,
                     modifier = Modifier.fillMaxWidth(),
@@ -49,7 +50,7 @@ fun SignUpContent(
             }
             item {
                 Text(
-                    text = "Please fill the details and create account",
+                    text = stringResource(R.string.please_fill_the_details_and_create_account),
                     color = Theme.color.natural700,
                     style = Theme.textStyle.title.regular,
                     modifier = Modifier
@@ -63,8 +64,8 @@ fun SignUpContent(
                 AppTextField(
                     value = "",
                     onValueChanged = {},
-                    hint = "Enter your name",
-                    title = "Name",
+                    hint = stringResource(R.string.enter_your_name),
+                    title = stringResource(R.string.name),
                     modifier = Modifier.padding(top = 24.dp)
 
                 )
@@ -73,8 +74,8 @@ fun SignUpContent(
                 AppTextField(
                     value = "",
                     onValueChanged = {},
-                    hint = "Enter your email",
-                    title = "Email",
+                    hint = stringResource(R.string.enter_your_email),
+                    title = stringResource(R.string.email),
                     keyboardOptions = KeyboardOptions(
                         keyboardType = KeyboardType.Email
                     ),
@@ -86,8 +87,8 @@ fun SignUpContent(
                 AppTextField(
                     value = "",
                     onValueChanged = {},
-                    hint = "Enter your password",
-                    title = "Password",
+                    hint = stringResource(R.string.enter_your_password),
+                    title = stringResource(R.string.password),
                     keyboardOptions = KeyboardOptions(
                         keyboardType = KeyboardType.Password
                     ),
@@ -101,8 +102,8 @@ fun SignUpContent(
                 AppTextField(
                     value = "",
                     onValueChanged = {},
-                    hint = "Enter confirm password",
-                    title = "Confirm Password",
+                    hint = stringResource(R.string.enter_confirm_password),
+                    title = stringResource(R.string.confirm_password),
                     keyboardOptions = KeyboardOptions(
                         keyboardType = KeyboardType.Password
                     ),
@@ -113,17 +114,16 @@ fun SignUpContent(
             }
             item {
                 PrimaryButton(
-                    text = "Sign Up",
+                    text = stringResource(R.string.sign_up),
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(top = 84.dp),
-                    onClick = {}
-                )
+                    onClick = {})
 
             }
             item {
                 Text(
-                    text = "Already have an account? Log In",
+                    text = stringResource(R.string.already_have_an_account_log_in),
                     color = Theme.color.natural700,
                     style = Theme.textStyle.title.regular,
                     modifier = Modifier
@@ -132,7 +132,6 @@ fun SignUpContent(
                     textAlign = TextAlign.Center
                 )
             }
-
 
         }
 
