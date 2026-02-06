@@ -5,4 +5,7 @@
     <string name="enter_your_last_name">Enter your last name</string>
     <string name="last_name">Last Name</string>
     <string name="gender">Gender</string>
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+    <string name="continue_">Continue</string>
 </resources>
