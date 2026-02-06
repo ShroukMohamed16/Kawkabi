@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kawkabi</string>
+    <string name="enter_your_first_name">أدخل الاسم الأول</string>
+    <string name="first_name">الاسم الأول</string>
+    <string name="enter_your_last_name">أدخل اسم العائلة</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="gender">النوع</string>
+    <string name="boy">ولد</string>
+    <string name="girl">بنت</string>
+    <string name="continue_">متابعة</string>
+
 </resources>

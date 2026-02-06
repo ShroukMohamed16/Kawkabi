@@ -104,6 +104,7 @@ fun AppTextField(
             visualTransformation = visualTransformation,
             modifier = Modifier
                 .fillMaxWidth()
+                .height(50.dp)
                 .clip(shape)
                 .background(color = Color.White)
                 .border(color = Theme.color.primary500, shape = shape, width = 1.dp)

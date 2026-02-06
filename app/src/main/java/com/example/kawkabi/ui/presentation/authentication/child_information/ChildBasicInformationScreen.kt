@@ -68,7 +68,6 @@ fun ChildBasicInformationContent() {
                     .fillMaxWidth()
                     .padding(vertical = 24.dp, horizontal = 16.dp)
             )
-
         }
 
     }

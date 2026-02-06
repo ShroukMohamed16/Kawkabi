@@ -15,6 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.unit.dp
@@ -32,9 +33,10 @@ fun GenderType(
     val borderColor by animateColorAsState(if (isSelected) Theme.color.primary600 else Color.Transparent)
     Column(
         modifier
-            .background(Color.White, shape = RoundedCornerShape(16.dp))
+            .clip(shape = RoundedCornerShape(16.dp))
+            .background(Color.White)
+            .border(width = 1.dp, color = borderColor)
             .clickable{ onClick() }
-            .border(width = 1.dp, color = borderColor, shape = RoundedCornerShape(16.dp))
             .padding(vertical = 24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(8.dp)
