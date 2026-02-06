@@ -103,7 +103,7 @@ fun AppTextField(
             },
             visualTransformation = visualTransformation,
             modifier = Modifier
-                .weight(1f)
+                .fillMaxWidth()
                 .clip(shape)
                 .background(color = Color.White)
                 .border(color = Theme.color.primary500, shape = shape, width = 1.dp)
