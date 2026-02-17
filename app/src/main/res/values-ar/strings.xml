@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kawkabi</string>
+    <string name="you_want_to_start_with">مع من تريد أن تبدأ؟</string>
+    <string name="confirm">تأكيد</string>
 </resources>
