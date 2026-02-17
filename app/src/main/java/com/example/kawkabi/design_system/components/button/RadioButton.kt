@@ -42,7 +42,8 @@ fun RadioButton(
 ) {
 
     val animatedUnselectedContentColor by animateColorAsState(
-        targetValue = if (isSelected || !isEnabled) Theme.color.primary600 else Theme.color.primary200
+        targetValue = if (isSelected || !isEnabled)
+            Theme.color.primary600 else Color.Unspecified
     )
 
     val clickableModifier = onClick?.let {

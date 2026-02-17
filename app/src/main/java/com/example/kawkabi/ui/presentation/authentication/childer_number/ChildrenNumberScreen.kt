@@ -108,7 +108,9 @@ fun ChildrenNumberItem(
     val shape = remember { RoundedCornerShape(16.dp) }
 
     val borderColor by animateColorAsState(
-        targetValue = if (isSelected) Theme.color.primary600 else Theme.color.primary200
+        targetValue = if (isSelected)
+            Theme.color.primary600
+        else Theme.color.primary200.copy(alpha = 0.32f)
     )
 
     Box(
@@ -119,7 +121,7 @@ fun ChildrenNumberItem(
             }
             .fillMaxWidth()
             .padding(8.dp)
-            .background(Theme.color.primary200, shape)
+            .background(Theme.color.primary200.copy(alpha = 0.32f), shape)
             .border(1.dp, borderColor, shape)
             .padding(16.dp),
         contentAlignment = Alignment.CenterStart
