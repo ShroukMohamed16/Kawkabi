@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Kawkabi</string>
+    <string name="how_many_children_will_use_kawkabi">How many children will use KAWKABI ?</string>
+    <string name="you_can_always_add_or_switch_children_later_from_your_parent_profile">You can always add or switch children later from your parent profile</string>
+    <string name="next">Next</string>
 </resources>

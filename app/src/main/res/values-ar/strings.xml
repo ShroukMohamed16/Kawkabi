@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kawkabi</string>
+    <string name="how_many_children_will_use_kawkabi">كم عدد الأطفال الذين سيستخدمون كوكبي؟</string>
+    <string name="you_can_always_add_or_switch_children_later_from_your_parent_profile">يمكنك دائمًا إضافة أو تبديل الأطفال لاحقًا من خلال ملف ولي الأمر الخاص بك</string>
+    <string name="next">التالي</string>
+
 </resources>
