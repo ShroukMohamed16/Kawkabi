@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Kawkabi</string>
+    <string name="your_account_has_been_created">تم إنشاء حسابك بنجاح!</string>
+    <string name="you_will_be_directed_to_the_home_page">سيتم توجيهك إلى الصفحة الرئيسية.</string>
+    <string name="let_s_start">لنبدأ</string>
+
 </resources>

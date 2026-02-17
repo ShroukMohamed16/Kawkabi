@@ -13,7 +13,7 @@ data class KawkabiColors(
      val primary200: Color,
      val danger600: Color,
      val success600: Color,
-     val hintColor:Color
+     val hintColor:Color,
 )
 
 val localKawkabiColors = staticCompositionLocalOf { lightThemeScheme }

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Kawkabi</string>
+    <string name="your_account_has_been_created">Your account has been\n created!</string>
+    <string name="you_will_be_directed_to_the_home_page">You will be directed to the home\n page.</string>
+    <string name="let_s_start">Let\'s Start</string>
 </resources>

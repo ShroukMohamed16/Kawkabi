@@ -42,7 +42,7 @@ fun PrimaryButton(
     ) {
         Text(
             text = text,
-            style = Theme.textStyle.title.bold,
+            style = Theme.textStyle.headerSmall.bold,
             color = contentColor
         )
     }
